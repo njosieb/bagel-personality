@@ -1,0 +1,35 @@
+.main {
+    background-color: #efd483;
+    color: hsl(106, 30%, 35%);
+    display: flex;
+    justify-content: space-around;
+    font-weight: 600;
+    height: fit-content;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active a{
+    color: #efd483;
+    
+ }
+
+ .navlinks {
+     display: flex;
+    justify-content: space-around;
+ }
+
+ p {
+     margin-left: 25px;
+ }
+
+ .paneraLogo {
+     max-width: 10px;
+    max-height: 15px;
+ }
